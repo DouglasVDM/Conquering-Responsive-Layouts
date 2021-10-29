@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  background: #23424a;
+  color: #ffffff;
+
+  width: 100%;
+  padding: 10% 10em;
+}
+
+.container h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 3.2rem;
+}
+
+.container p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.content {
+  width: 65%;
+}
+
+.btn {
+  width: 285px;
+  height: 63px;
+  border-radius: 31.5px;
+
+  font-size: 21px;
+  margin-top: 40px;
+
+  background: #38cfd9;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
