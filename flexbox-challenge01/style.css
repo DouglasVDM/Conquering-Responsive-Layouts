@@ -1,0 +1,84 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  /* display: flex turns this item into a flex container */
+  display: flex;
+  /* not supported by all browsers yet */
+  /* gap: 100px; */
+}
+
+.col {
+  /* these are children of .row(the parent) they become flex items */
+  width: 100%;
+  text-align: center;
+}
+
+.col+.col {
+  margin-left: 30px;
+}
+
+.hero {
+  padding: 100px 0;
+  background: #23424a;
+  color: #fff;
+}
+
+.hero__text {
+  width: 50%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424a;
+  font-weight: 900;
+  background-color: #38cfd9;
+  padding: .75em 2em;
+  border-radius: 100px;
+}
+
+.btn:hover, .btn:focus {
+  opacity: .75;
+  transform: scale(1.05);
+}
+
+.about h1 {
+  color: #87629A;
+  font-size: 2.25rem;
+}
+
+.footer {
+  background: #136C72;
+  color: #fff;
+}
+
+.footer .col+.col {
+  margin-left: 60px;
+}
+
+.footer h1 {
+  font-size: 2.25rem;
+}
