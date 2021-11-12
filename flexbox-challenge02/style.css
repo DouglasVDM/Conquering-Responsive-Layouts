@@ -41,7 +41,6 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -51,7 +50,7 @@ h1 {
     width: 100%;
 }
 
-.col + .col {
+.col+.col {
     margin-left: 30px;
 }
 
@@ -61,7 +60,7 @@ h1 {
     color: #FFF;
 }
 
-.hero__text { 
+.hero__text {
     width: 62%;
 }
 
@@ -77,7 +76,7 @@ h1 {
 .btn {
     display: inline-block;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #23424A;
     font-weight: 900;
     background-color: #38CFD9;
@@ -85,7 +84,24 @@ h1 {
     border-radius: 100px;
 }
 
-.btn:hover,
-.btn:focus {
-    opacity: .75; 
+.btn:hover, .btn:focus {
+    opacity: .75;
+}
+
+.left {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.left__text {
+    width: 55%;
+    color: #136C72;
+}
+
+.right__text {
+    text-align: center;
+    width: 32%;
+    padding: 3rem;
+    background-color: #136C72;
+    color: white;
 }
